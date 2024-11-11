@@ -1,0 +1,33 @@
+:root {
+    --color1: #e7bd35;
+    --color2: #f0e873;
+    --color3: #281207;
+    --color4: #847770;
+    --color5: #f3eae8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--color1);
+}
+
+header {
+    background: var(--color2);
+}
+
+.item--menu {
+    display: flex;
+}
+
+.item--flex li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--color3);
+}
